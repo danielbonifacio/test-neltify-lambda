@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "serve": "cross-env ENV=development ./node_modules/.bin/netlify-lambda serve src",
-    "build": "cross-env ENV=production asdkasjd"
+    "build": "cross-env ENV=production ./node_modules/.bin/netlify-lambda build src"
   },
   "dependencies": {
     "cross-env": "^7.0.2",
